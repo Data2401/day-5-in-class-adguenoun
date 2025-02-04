@@ -14,26 +14,39 @@
 
 # Assign your name to a variable called `my_name`
 
+my_name <- 'Adam Cherif'
+
 # Assign the number of pets you have to a variable called `num_pets`
+
+num_pets <- 0
 
 # Assign the title of your favorite book as a variable called `favorite_book`
 
+favorite_book <- "Invisible Man"
+
 # Create a variable called `radius`, which is your favorite number
+
+radius <- 25
 
 # Create a variable called `area`, which is the area of a circle with that radius.
 # Use the variable `radius` to calculate this. 
 # Use the built-in constant `pi` for pi.
 
+area <- (radius**2)*pi
 
 # Create a boolean variable `too_big` that is set to TRUE if the area is larger than 100
 # Use a relationship operator to do this  (don't just set it to "TRUE")
 # Think: how do you check if it's larger than 10? Assign that to your new variable name. 
 
 
+too_big <- area>100 
+ 
 # Display the variable `my_name`
 # Display the variable `area` 
 # Display the variable `too_big`
-
+print(my_name)
+print(area)
+print(too_big)
 
 ### PART TWO ###
 
