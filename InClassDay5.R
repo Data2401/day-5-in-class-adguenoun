@@ -53,28 +53,71 @@ print(too_big)
 # Create a variable `name_length` that holds how many letters (including spaces)
 # are in your name, using the variable you made above. (use the `nchar()` function)
 
+nchar(name) -> name_length
+
 # Print the number of letters in your name
+
+print(name_length)
 
 # Create a variable `now_doing` that is your name followed by "is programming!" 
 # (use the `paste()` function)
 
+now_doing <- paste(name,"is programming!")
+
 # Make the `now_doing` variable upper case
+
+Now_doing <- now_doing
 
 # Pick two of your favorite numbers (between 1 and 100) and assign them to 
 # variables `fav_1` and `fav_2`
 
+fav_1 <- 25
+fav_2 <- 7
+
+print(fav_1)
+print(fav_2)
+
+(fav_1)/sqrt(201) -> fav_1
+(fav_2)/sqrt(201) -> fav_2
+
+print(fav_1)
+print(fav_2)
+
+
 # Divide each number by the square root of 201 and save the new value in the
 # original variable
+
+(fav_1)/sqrt(201) -> fav_1
+(fav_2)/sqrt(201) -> fav_2
+
+print(fav_1)
+print(fav_2)
 
 # Create a variable `raw_sum` that is the sum of the two variables. Use the 
 # `sum()` function for practice.
 
+raw_sum <- sum(fav_1, fav_2)
+
 # Create a variable `round_sum` that is the `raw_sum` rounded to 2 decimal places.
 # Use the `round()` function.
+
+round_sum <- round(raw_sum, 2)
 
 # Create two new variables `round_1` and `round_2` that are your `fav_1` and 
 # `fav_2` variables rounded to 2 decimal places
 
+round_1 <- round(fav_1, 2)
+round_2 <- round(fav_2, 2)
+
 # Create a variable `sum_round` that is the sum of the rounded values
 
+sum_round <- sum(round_1, round_2)
+
 # Print out both variables and compare. Are they the same?
+
+print(round_sum)
+print(sum_round)
+
+round_equal <- sum_round == round_sum
+
+print(round_equal)
